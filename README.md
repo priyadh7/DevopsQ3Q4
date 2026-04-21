@@ -122,3 +122,6 @@ Successfully implemented a monolithic Flask application and automated CI pipelin
 for Q7 change 
 priyadharsh26/app:latest
 priyadharsh26/app:${{ github.sha }}
+
+run: docker build -t priyadharsh26/app:${{ github.sha }} .
+run: docker push priyadharsh26/app:${{ github.sha }}
