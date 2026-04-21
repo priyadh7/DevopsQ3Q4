@@ -118,3 +118,7 @@ DOCKER_PASSWORD = Docker access token
 ## Result
 
 Successfully implemented a monolithic Flask application and automated CI pipeline using GitHub Actions.
+
+for Q7 change 
+priyadharsh26/app:latest
+priyadharsh26/app:${{ github.sha }}
